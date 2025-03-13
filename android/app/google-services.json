@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "825731539103",
+    "project_id": "addeen-c65a5",
+    "storage_bucket": "addeen-c65a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825731539103:android:a10aff53375658628e42aa",
+        "android_client_info": {
+          "package_name": "com.example.quiz_university"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS3vyD4fu8bxH8xRPGrW0Is_5siDuwEBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
