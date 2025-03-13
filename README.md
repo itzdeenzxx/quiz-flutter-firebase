@@ -1,16 +1,40 @@
-# quiz_university
+# 🎓 University Ranking App
 
-A new Flutter project.
+🚀 A simple and powerful **Flutter** app using **Firebase Firestore** for managing university rankings. Designed for smooth CRUD operations! 📊
 
-## Getting Started
+## 🎯 Features
+✅ **Add** university details (Name, Country, World Ranking) ➕  
+✅ **Read** university list (Show Name & World Ranking only) 📋  
+✅ **Update** university details (Edit Name & World Ranking) ✏️  
+✅ **Delete** university from Firestore 🗑️  
+✅ **Firebase Firestore** as the backend database 🔥  
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
+- **Flutter** (Dart) 🚀
+- **Firebase Firestore** 🔥
+- **Provider State Management** 🎯
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+1. Clone this repo:
+   ```sh
+   git clone https://github.com/itzdeenzxx/quiz-flutter-firebase.git
+   ```
+2. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+3. Set up Firebase:
+   - Create a Firebase project using your English name as the project name
+   - Enable Firestore Database
+   - Download `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) into respective folders
+   - Create a Firestore **Collection** named `University`
+4. Run the app:
+   ```sh
+   flutter run
+   ```
+
+
+💙 Made with passion by [itzdeenzxx](https://github.com/itzdeenzxx) ✨
+
