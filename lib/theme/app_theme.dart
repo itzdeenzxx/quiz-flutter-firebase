@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  // สีหลักของแอพ
   static const Color primaryColor = Color(0xFF4361EE);
   static const Color secondaryColor = Color(0xFF3F37C9);
   static const Color accentColor = Color(0xFF4CC9F0);
@@ -12,7 +11,6 @@ class AppTheme {
   static const Color errorColor = Color(0xFFDC3545);
   static const Color successColor = Color(0xFF28A745);
 
-  // ธีมหลักของแอพ
   static ThemeData themeData = ThemeData(
     primaryColor: primaryColor,
     scaffoldBackgroundColor: backgroundColor,

@@ -11,7 +11,6 @@ class University {
     required this.worldRank,
   });
 
-  // แปลงข้อมูลจาก Map (Firebase) เป็น University object
   factory University.fromMap(String id, Map<String, dynamic> map) {
     return University(
       id: id,
@@ -21,7 +20,6 @@ class University {
     );
   }
 
-  // แปลงข้อมูลจาก University object เป็น Map สำหรับเก็บใน Firebase
   Map<String, dynamic> toMap() {
     return {
       'name': name,
