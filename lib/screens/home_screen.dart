@@ -197,7 +197,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Text('• ลบข้อมูลมหาวิทยาลัย'),
               SizedBox(height: 8),
               Text(
-                'พัฒนาด้วย Flutter และ Firebase',
+                '6530200894 Addeen Salaehsakul',
                 style: TextStyle(fontStyle: FontStyle.italic),
               ),
             ],
